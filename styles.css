@@ -3,7 +3,7 @@ body{
 }
 a{
   color: white;
-  font-size: 20px;
+  font-size: 80%;
   text-decoration: none;
 }
 a:hover{
@@ -12,22 +12,21 @@ color: black;
 .be{
   background-color:#4D77FF;
   display: inline-block;
-  height:200px;
-  width: 200px;
-  position: absolute;
-  left:35%;
-  top: 63%;
+  height:100px;
+  width: 100px;
+
   border-radius: 100%;
+  margin-left: 0;
+  margin-right: 10%;
 }
 .b{
   background-color: #4D77FF;
   display: inline-block;
-  height:200px;
-  width: 200px;
-  position: absolute;
-  left:55%;
-  top:63%;
+  height:100px;
+  width: 100px;
+
   border-radius: 100%;
+
 }
 .be:hover{
   background-color:#F24A72;
@@ -52,13 +51,20 @@ color: black;
   margin-top: 0;
   background-color: #ffffff;
   opacity: 0.6;
-  padding-top: 25%;
+  padding-top: 80%;
 }
 h1{
+  font-size: 200%;
   color: #4700D8;
   display: inline-block;
   position: absolute;
-  left: 34%;
+  left:3.5%;
   top:10%;
   font-weight: bold;
+  text-align: center;
+}
+.buttons{
+  margin-left: 30%;
+  margin-right: 0;
+  margin-top: 10%;
 }
